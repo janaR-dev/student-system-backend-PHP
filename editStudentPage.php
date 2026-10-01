@@ -27,14 +27,14 @@ require_once __DIR__."/BACK/validation.php";
     <script src="./scripts/index.js"></script>
 
     
-    <section id="Registration Edit" class="py-5">
+    <section id="Edit" class="py-5">
         <div class="container">
             <div class="header">
                 <img src="./public/images/logo.png" alt="" class="mx-auto mb-5 d-block">
             </div>
             <div class="box m-auto px-3 py-4 rounded-4 mt-4">
                 <i class="fa-solid fa-rotate-left back d-none" onclick=""></i>
-                <h4 class="text-center mb-4">Students System</h4>
+                <h4 class="text-center mb-4">Edit Student</h4>
                 <form data-type="add" action="BACK/edit.php" method="POST">
                    <input type="hidden" class="form-control input" name="student_id"  value="<?= old('id')?>">
 
