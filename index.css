@@ -1,0 +1,31 @@
+:root {
+    --MainColor: #F1E378;
+}
+
+body {
+    background: #0f2027;
+    background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+}
+
+#Registration .box {
+    background: #ada996;
+    background: -webkit-linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+    background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+    width: 500px;
+    position: relative;
+}
+
+#Registration .box h2,
+i {
+    color: var(--MainColor);
+}
+
+#Search .input-group {
+    width: 300px;
+    margin: auto;
+}
+
+table {
+    width: max-content;
+}
