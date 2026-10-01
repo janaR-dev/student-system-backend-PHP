@@ -22,6 +22,7 @@ require_once __DIR__ . "/BACK/validation.php";
     <script src="./scripts/jq.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./bootstrap.js"></script>
+    <script src="./scripts/funs.js"></script>
     <script src="./scripts/index.js"></script>
 
     

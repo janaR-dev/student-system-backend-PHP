@@ -6,7 +6,7 @@ require_once __DIR__ . "/../database/connection.php";
 
 
 
-pr($_SERVER);
+
 if ($_SERVER['REQUEST_METHOD'] !== "POST") {
     throwError(405, "Method Not Allowed");
 }
